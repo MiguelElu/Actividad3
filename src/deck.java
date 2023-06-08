@@ -33,6 +33,8 @@ public class deck {
                     Baraja.add(temp);
                 }
             }
+            head();
+            //for (int o=0; o <sizec; o++) {Baraja.get(o).MostrarCarta();}
 
 
             }
@@ -52,7 +54,8 @@ public class deck {
 
         }
     public static void pick(){
-         int rand = (int) ((Math.random()*sizec)+1);
+         int rand = (int) ((Math.random()*sizec));
+         if (rand == sizec) {rand =sizec-1;}
         Baraja.get(rand).MostrarCarta();
         Baraja.remove(rand);
         sizec = sizec -1;
