@@ -33,9 +33,7 @@ public class deck {
                     Baraja.add(temp);
                 }
             }
-            Shuffle();
-              pick();
-              hand();
+
 
             }
 
