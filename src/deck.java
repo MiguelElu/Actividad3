@@ -4,7 +4,7 @@ import java.util.Collections;
 
 public class deck {
     static ArrayList<Carta> Baraja = new ArrayList<Carta>();
-    static int sizem = 52;
+
     static int sizec = 52;
 
         public static void main(String[] args) {
